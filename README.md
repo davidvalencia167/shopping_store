@@ -21,7 +21,7 @@ Este proyecto consiste en el desarrollo de una aplicación móvil de una tienda 
 ## Requisitos
 
 - **Android Studio** versión 4.0 o superior.
-- **SDK de Android** versión mínima 21.
+- **SDK de Android** versión mínima 17.
 - Conexión a internet para cargar imágenes de productos a través de URLs.
 
 ## Instalación
