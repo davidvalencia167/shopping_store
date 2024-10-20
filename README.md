@@ -43,8 +43,8 @@ Este proyecto consiste en el desarrollo de una aplicación móvil de una tienda 
 
 ### Pantalla de Inicio
 
-1. **Login**: Ingresa tus credenciales para acceder o selecciona "Registro" si eres un usuario nuevo.
-2. **Registro de Clientes**: Completa el formulario de registro para crear una cuenta.
+1. **Registro de Clientes**: Completa el formulario de registro para crear una cuenta.
+2. **Login**: Ingresa tus credenciales para acceder o selecciona "Registro" si eres un usuario nuevo.
 
 ### Listado de Productos
 
