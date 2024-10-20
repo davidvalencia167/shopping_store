@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@android:color/background_light">
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email_text_login"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"
+        android:inputType="textEmailAddress"
+        android:drawablePadding="8dp"
+        android:layout_marginBottom="16dp"
+        tools:ignore="Autofill,TouchTargetSizeCheck,TextContrastCheck,VisualLintTextFieldSize" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password_text_login"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"
+        android:inputType="textPassword"
+        android:drawablePadding="8dp"
+        android:layout_marginBottom="24dp"
+        tools:ignore="Autofill,TextContrastCheck,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_text"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_background"
+        android:padding="12dp"
+        android:textStyle="bold"
+        tools:ignore="VisualLintButtonSize" />
+
+    <TextView
+        android:id="@+id/register_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="24dp"
+        android:text="@string/dont_have_account_text"
+        android:textColor="@android:color/holo_blue_light"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        tools:ignore="TextContrastCheck" />
+</LinearLayout>
