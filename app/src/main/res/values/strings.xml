@@ -12,6 +12,7 @@
     <string name="password_text_login">Contraseña</string>
     <string name="login_text">Iniciar sesión</string>
     <string name="dont_have_account_text">¿No tienes cuenta? Regístrate</string>
+    <string name="take_photo">Tomar Foto</string>
 
     <!--item_product.xml-->
     <string name="product_name">Nombre del Producto</string>

@@ -31,5 +31,6 @@ class CartActivity : AppCompatActivity() {
         findViewById<Button>(R.id.checkout_button).setOnClickListener {
             Toast.makeText(this, "Pagar no implementado", Toast.LENGTH_SHORT).show()
         }
+
     }
 }

@@ -73,4 +73,14 @@
         android:background="@drawable/button_background"
         tools:ignore="VisualLintButtonSize" />
 
+    <TextView
+        android:id="@+id/location_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latitud: -\nLongitud: -"
+        android:textSize="18sp"
+        android:textColor="#333"
+        android:layout_marginTop="24dp"
+        android:layout_gravity="center" />
+
 </LinearLayout>
