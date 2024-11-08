@@ -8,13 +8,15 @@ Este proyecto consiste en el desarrollo de una aplicación móvil de una tienda 
 - **Listado de productos**: Visualización de una lista de productos con sus precios y una imagen representativa.
 - **Carrito de compras**: Los usuarios pueden añadir productos al carrito y visualizar su selección.
 - **Registro de clientes**: Formulario para que los usuarios nuevos puedan registrarse.
+- **Geolocalización**: La aplicación obtiene la ubicación del usuario para mostrarla en el registro.
+- **Funcionalidad de cámara**: Permite a los usuarios capturar imágenes desde la app.
 
 ## Tecnologías usadas
 
 - **Lenguaje**: Kotlin
 - **Entorno**: Android Studio
 - **Patrón de diseño**: MVP (Model-View-Presenter)
-- **Bibliotecas**: 
+- **Bibliotecas**:
   - [Glide](https://github.com/bumptech/glide) para cargar imágenes desde URLs.
   - [RecyclerView](https://developer.android.com/guide/topics/ui/layout/recyclerview) para mostrar listas de productos.
 
@@ -48,7 +50,7 @@ Este proyecto consiste en el desarrollo de una aplicación móvil de una tienda 
 
 ### Listado de Productos
 
-- Explora los productos disponibles. Cada producto muestra su nombre, precio y una imagen. 
+- Explora los productos disponibles. Cada producto muestra su nombre, precio y una imagen.
 
 ### Carrito de Compras
 
@@ -56,11 +58,17 @@ Este proyecto consiste en el desarrollo de una aplicación móvil de una tienda 
 - Accede al carrito para ver los productos seleccionados.
 - Simula la compra (esta funcionalidad no está implementada).
 
+### Funcionalidades adicionales
+
+- **Geolocalización**: La aplicación obtiene la latitud y longitud del usuario al registrarse y las muestra en pantalla.
+- **Uso de la cámara**: Se puede acceder a la cámara para capturar imágenes y mostrarlas en la aplicación.
+
 ## Errores conocidos
 
 1. **Deprecación de funciones**: En algunas partes del código, se están usando métodos que han sido marcados como obsoletos, como `getSerializableExtra()`. Se recomienda actualizar el código a `getParcelableExtra()` para mejor compatibilidad.
 2. **Carga de imágenes**: Asegúrate de que las URLs de las imágenes sean válidas; de lo contrario, Glide no podrá cargarlas correctamente.
 3. **Validación del registro**: El formulario de registro aún no valida todos los datos ingresados, por lo que es posible ingresar información incorrecta.
+4. **Emulador y cámara**: En algunos casos, la cámara no funciona en el emulador de Android Studio, pero sí en dispositivos físicos.
 
 ## Próximas mejoras
 
@@ -70,8 +78,8 @@ Este proyecto consiste en el desarrollo de una aplicación móvil de una tienda 
 
 ## Contribuciones
 
-Si deseas contribuir a este proyecto, por favor realiza un fork del repositorio y abre un **Pull Request**. Todas las contribuciones son bienvenidas.
+Si deseas contribuir a este proyecto, por favor realiza un fork del repositorio y abre un Pull Request. Todas las contribuciones son bienvenidas.
 
 ## Licencia
 
-Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo `LICENSE`.
+Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo LICENSE.
